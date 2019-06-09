@@ -1,4 +1,4 @@
-# Check_blockchain_diplom
+# Check_blockchain_diplomas
 It is a Flask webapp to display and verify blockchain certificates.
 
 ## Install and Run
@@ -8,7 +8,7 @@ It is a Flask webapp to display and verify blockchain certificates.
 2. Git clone the repository and change to the directory
 
     ```bash
-    git clone https://github.com/DasHaSneg/Checkblockchaindiplom && cd Checkblockchaindiplom
+    git clone https://github.com/DasHaSneg/Checkblockchaindiplomas && cd Checkblockchaindiplomas
     ```
     
 4. Run setup
