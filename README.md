@@ -26,4 +26,4 @@ It is a Flask webapp to display and verify blockchain certificates.
 6. Open `http://localhost:5000`
 
 ### Example data
-Use examples of diplomas from the data folder.
+Use examples of diplomas from the blockchain_certificates folder.
