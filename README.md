@@ -14,7 +14,7 @@ It is a Flask webapp to display and verify blockchain certificates.
 4. Run setup
 
     ```bash
-    pip install .
+    pip install -r requirements.txt
     ```
 
 5. Run the flask server
