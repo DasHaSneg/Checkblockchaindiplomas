@@ -1,4 +1,4 @@
-# Checkblockchaindiplom
+# Check_blockchain_diplom
 It is a Flask webapp to display and verify blockchain certificates.
 
 ## Install and Run
