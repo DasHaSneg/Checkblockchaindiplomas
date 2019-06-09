@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>BlockProject</title>
+	 <link rel="stylesheet" href="/static/css/index.css">
+	 <link href="https://fonts.googleapis.com/css?family=Forum|Scada" rel="stylesheet">
+
+</head>
+<body>
+	<div class="content_page">
+		<div class="header">
+			<div class="header_container">
+				<div class="header_left">
+					<span class="logo">BLOCKCHAIN</span>
+				</div>
+				
+				
+					<nav class="main-nav">
+						<ul>
+				<!-- ссылки на вызов форм -->
+							<li class="menu_item"><a class="cd-signin" href="#0">ВХОД</a></li>
+							<li class="menu_item"><a class="cd-signup" href="#0">РЕГИСТРАЦИЯ</a></li>
+						</ul>
+					</nav>
+				
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">		
+				{% block content %}
+					
+				{% endblock %}
+			</div>
+		</div>
+	</div>
+
+    <div id="footer">
+        <span class="footer-text">&copy; Снегирева Дарья</span>
+    </div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
+                                $('input').on('change', function() {
+
+                                    var splittedFakePath = this.value.split('\\');
+                                    $('#namefile').text(splittedFakePath[splittedFakePath.length - 1]);
+                                    if (this.value!=null) {
+                                        document.getElementById("verify2").type = 'sumbit';
+
+
+                                    }
+                                });
+                                $('#verify2').click(function () {
+
+                                        $('#namefile').text('Прикрепите файл');
+
+                                })
+        window.onload=function(){
+            document.getElementById("verify-button").click();};
+
+                            </script>
+
+
+    <script  src="/static/js/verification.js"></script>
+    <script src="/static/js/footer.js"></script>
+</body>
+</html>
