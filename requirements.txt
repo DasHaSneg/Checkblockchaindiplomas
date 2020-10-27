@@ -13,7 +13,7 @@ Click==7.0
 clickclick==1.2.2
 ConfigArgParse==0.14.0
 connexion==2.2.0
-cryptography==2.6.1
+cryptography==3.2
 decorator==4.4.0
 filelock==3.0.10
 Flask==1.0.2
