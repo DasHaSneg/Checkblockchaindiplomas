@@ -46,7 +46,7 @@ pysha3==1.0b1
 python-bitcoinlib==0.10.1
 python-dateutil==2.8.0
 pytz==2019.1
-PyYAML==5.1
+PyYAML==5.4
 requests==2.21.0
 simplekv==0.12.0
 six==1.12.0
