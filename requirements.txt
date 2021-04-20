@@ -35,7 +35,7 @@ pathlib==1.0.1
 pbr==5.2.0
 pluggy==0.11.0
 ply==3.11
-py==1.8.0
+py==1.10.0
 pycoin==0.80
 pycparser==2.19
 PyLD==1.0.5
