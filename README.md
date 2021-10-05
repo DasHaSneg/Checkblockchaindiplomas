@@ -20,7 +20,7 @@ It is a Flask webapp to display and verify blockchain certificates.
 5. Run the flask server
 
     ```shell
-    python run.py app.py
+    python run app.py
     ```
 
 6. Open `http://localhost:5000`
