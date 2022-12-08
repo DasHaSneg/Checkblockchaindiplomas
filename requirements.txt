@@ -5,7 +5,7 @@ cert-issuer==2.0.15
 cert-schema==2.1.6
 cert-tools==2.0.11
 cert-verifier==2.0.14
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.3
 chainpoint==0.0.2
 chardet==3.0.4
